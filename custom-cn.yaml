@@ -1,13 +1,8 @@
-# - DOMAIN-SUFFIX,bilibili.com
-# - DOMAIN,data.bilibili.com
+# - DOMAIN-SUFFIX,bilibili.com  匹配 bilibili.com 和所有子域名（如 api.bilibili.com）。
+# - DOMAIN,data.bilibili.com  只匹配精确域名 bilibili.com，不含子域名。
 # - DOMAIN-SUFFIX,alicdn.com
-# - IP-CIDR,101.227.0.0/16
+# - IP-CIDR,101.227.0.0/16 匹配 IPv4 网段。
 # - IP-CIDR,203.107.0.0/16
-# - IP-CIDR6,2408:4000::/32
+# - IP-CIDR6,2408:4000::/32 匹配 IPv6 网段。
 payload:
   - DOMAIN-SUFFIX,bilibili.com
-  - DOMAIN,data.bilibili.com
-  - DOMAIN-SUFFIX,alicdn.com
-  - IP-CIDR,101.227.0.0/16
-  - IP-CIDR,203.107.0.0/16
-  - IP-CIDR6,2408:4000::/32
