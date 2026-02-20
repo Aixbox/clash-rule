@@ -1,0 +1,13 @@
+# - DOMAIN-SUFFIX,bilibili.com
+# - DOMAIN,data.bilibili.com
+# - DOMAIN-SUFFIX,alicdn.com
+# - IP-CIDR,101.227.0.0/16
+# - IP-CIDR,203.107.0.0/16
+# - IP-CIDR6,2408:4000::/32
+payload:
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN,data.bilibili.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - IP-CIDR,101.227.0.0/16
+  - IP-CIDR,203.107.0.0/16
+  - IP-CIDR6,2408:4000::/32
