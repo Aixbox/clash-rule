@@ -6,3 +6,4 @@
 # - IP-CIDR6,2408:4000::/32 匹配 IPv6 网段。
 payload:
   - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,qq.com
