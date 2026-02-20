@@ -7,3 +7,4 @@
 payload:
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,163.com
